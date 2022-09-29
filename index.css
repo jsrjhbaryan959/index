@@ -1,0 +1,138 @@
+*{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.profile{
+    border-radius: 100%;
+    width: 70%;
+}
+
+.left{
+    text-align: left;
+}
+
+.btn{
+    padding: 1rem;
+    color: black;
+    
+
+}
+.btn:hover{
+    color: red;
+}
+
+.btn-primary{
+    background-color:gold;
+    border: none;
+
+
+}
+
+.about-row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+}
+.about-col{
+    padding: 2rem;
+    display: inline-block;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.whatido-row{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.whatido-col{
+    padding: 2rem;
+}
+
+.skills-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #212121;
+    
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    color: red;
+} 
+input{
+    padding: 1rem;
+    width: 40%;
+}
+.but{
+    margin-top: 3rem;
+    
+}
+.grey{
+    background-color: black;
+
+}
+.whatido-col{
+    background-color: #212121;
+    width: 20%;
+    word-wrap: break-word;
+}
+.grey-bg{
+    background-color: black;
+}
+.skills-col{
+    background-color: #212121;
+    text-align: center;
+}
+.green{
+    color: #27AE60;
+}
+.heading{
+    text-align: center;
+    color: black;
+}
+.nah{
+    padding: 5em;
+    color: #27AE60  ;
+    background-color: aliceblue;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.hove:hover{
+    color: goldenrod;
+}
